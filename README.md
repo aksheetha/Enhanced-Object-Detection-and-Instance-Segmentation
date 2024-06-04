@@ -142,7 +142,7 @@ clipping to avoid this issue. We do use gradient clipping, but don't set it too 
 We found that smaller learning rates converge faster anyway so we go with that.
 
 ## Citation
-Use this bibtex to cite this repository:
+
 ```
 @misc{matterport_maskrcnn_2017,
   title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
@@ -153,15 +153,6 @@ Use this bibtex to cite this repository:
   howpublished={\url{https://github.com/matterport/Mask_RCNN}},
 }
 ```
-
-## Contributing
-Contributions to this repository are welcome. Examples of things you can contribute:
-* Speed Improvements. Like re-writing some Python code in TensorFlow or Cython.
-* Training on other datasets.
-* Accuracy Improvements.
-* Visualizations and examples.
-
-You can also [join our team](https://matterport.com/careers/) and help us build even more projects like this one.
 
 ## Requirements
 Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `requirements.txt`.
