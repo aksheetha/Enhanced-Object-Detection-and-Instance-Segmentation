@@ -138,19 +138,6 @@ gradients (sum vs mean across batches and GPUs). Or, maybe the official model us
 clipping to avoid this issue. We do use gradient clipping, but don't set it too aggressively.
 We found that smaller learning rates converge faster anyway so we go with that.
 
-## Citation
-
-```
-@misc{matterport_maskrcnn_2017,
-  title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
-  author={Waleed Abdulla},
-  year={2017},
-  publisher={Github},
-  journal={GitHub repository},
-  howpublished={\url{https://github.com/matterport/Mask_RCNN}},
-}
-```
-
 ## Requirements
 Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `requirements.txt`.
 
